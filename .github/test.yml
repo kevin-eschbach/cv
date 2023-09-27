@@ -1,0 +1,19 @@
+name: Github Actions Test
+run-name: ${{ github.actor }} is testing out Github Actions
+on: [push]
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repo
+        uses: actions/checkout@v3
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-actions@v3
+        with:
+          root_file: cv.tex
+      - name: Upload PDF file
+        uses: actions/upload-artifact@v3
+        with:
+          name: PDF
+          path: cv.pdf
+
