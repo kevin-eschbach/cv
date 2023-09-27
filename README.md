@@ -20,8 +20,7 @@
 [![HitCount](http://hits.dwyl.com/philem/modern-latex-cv.svg)](http://hits.dwyl.com/philem/modern-latex-cv)
 
 
-
-If you find this repository useful, I would appreciate :star:. This CV is based on an existing [LaTeX template](https://www.xm1math.net/texmaker/) and packs it into a nice modern, but also simple design. The tex folder contains a German version and an English version of the template. 
+I forked this repo from [Philip Empl](https://github.com/philipempl). If you find this repository useful, I would appreciate if you go over to the [original repo](https://github.com/philipempl/modern-latex-cv) and :star:. This CV is based on an existing [LaTeX template](https://www.xm1math.net/texmaker/) and packs it into a nice modern, but also simple design. The tex folder contains a German version and an English version of the template. 
 
 ## Preview
 <p align="center">
